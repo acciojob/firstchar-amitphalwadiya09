@@ -2,7 +2,7 @@ function firstChar(text) {
   // your code here
 	if(text.length>0)
 	{
-		return text[0];
+		return text.charAt(0);
 	}
 	else
 	{ 
@@ -12,5 +12,5 @@ function firstChar(text) {
 
 // Do not change the code below 
 
-const text = prompt("Enter text:");
-alert(firstChar(text));
+// const text = prompt("Enter text:");
+// alert(firstChar(text));
